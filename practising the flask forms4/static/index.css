@@ -1,0 +1,39 @@
+
+body{
+    background-color: #7F7FD5;
+}
+
+form{
+    display:inline-flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:flex-start;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background-color:white;
+    padding:7rem;
+}
+
+.my-1{
+    margin:1rem 0;
+}
+
+.container{
+    display:inline-flex;
+    padding:10rem;
+    
+}
+
+.btn{
+    padding:1rem 3rem;
+    background-color: blue;
+    color:white;
+    border:1px solid white;
+    border-radius: 0.5rem;
+}
+
+
+.box{
+    width:20rem;
+    padding: 0.2rem 0;
+}

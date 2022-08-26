@@ -1,0 +1,67 @@
+
+.form{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    border-radius: 0.5rem;
+    padding:2rem;
+}
+
+.form-control-label{
+    font-size:1rem;
+    font-weight: bold;
+    color:seagreen;
+    margin: 1rem 1rem;
+}
+
+.form h1{
+    text-align: center;
+}
+
+.div{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.submit-btn{
+    padding:0.5rem;
+    background-color:seagreen;
+    color:white;
+    border:1px solid seagreen;;
+    border-radius: 0.5rem;
+}
+
+.submit-btn:hover{
+    color:black;
+}
+
+.personal-info{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border:1px solid black;
+    border-radius: 0.5rem;
+    padding:1rem;
+    margin:0 3rem;
+}
+
+.edu-quali{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border:1px solid black;
+    border-radius: 0.5rem;
+    padding:1rem;
+    margin:0 3rem;
+}
+
+.dabba{
+    border:1px solid black;
+    border-radius: 0.3rem;
+}
+
+.list-decoration{
+    list-style:none;
+}

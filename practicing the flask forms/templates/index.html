@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="static/index.css">
+
+<body>
+    <form method="POST" class="form">
+        <div class="personal-info">
+            <h1>Personal Details</h1>
+            <div>
+                {{ form.hidden_tag() }}
+            </div>
+            <br>
+            <div class="div">
+                {{ form.name.label(class="form-control-label") }} {{ form.name(class="dabba") }}
+            </div>
+            <br>
+            <div class="div">
+                {{ form.password.label(class="form-control-label") }} {{ form.password(class="dabba") }}
+            </div>
+            <br>
+            <div class="div">
+                {{ form.email.label(class="form-control-label") }} {{ form.email(class="dabba") }}
+            </div>
+            <br>
+            <div class="div">
+                {{ form.gender.label(class="form-control-label") }} {{ form.gender(class="list-decoration") }}
+            </div>
+            <br>
+            <div class="div">
+                {{ form.contact.label(class="form-control-label") }} {{ form.contact(class="dabba") }}
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="edu-quali">
+            <h1>Educational Qualification</h1>
+            <div class="div">
+                {{ form.degree.label(class="form-control-label") }} {{ form.degree(class="dabba") }}
+            </div>
+            <br>
+            <div class="div">
+                {{ form.hobby.label(class="form-control-label") }} {{ form.hobby(class="dabba") }}
+            </div>
+            <br>
+            <div class="div">
+                {{ form.address.label(class="form-control-label") }} {{ form.address(class="dabba") }}
+            </div>
+            <br>
+        </div>
+        <div class="div">
+            {{ form.submit(class="submit-btn") }}
+        </div>
+    </form>
+</body>
+
+</html>
